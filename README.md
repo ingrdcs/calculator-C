@@ -1,6 +1,7 @@
 <h1> Calculadora simples em C </h1>
 <br>
 <p> Apenas para treinar meus conhecimentos na linguagem C adquiritos até o momento. </p>
+<p> Calculadora simples apenas de adição, subtração, multiplicação e divisão </p
 <br>
 
 
