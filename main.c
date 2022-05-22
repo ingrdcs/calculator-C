@@ -4,15 +4,16 @@
 
 int main(){
 
-    //declarando as variaveis
-
+   
+   //declarando as variáveis
    int resultado, numero1, numero2;;
    char op = '0';
 
-   do{
+    
+    do{
         numero1 = numero2 = resultado = 0;
 
-        // imprimindo as opções da nossa calculadora
+        // imprimindo as opções da calculadora
         printf("Bem vindo a Calculadora em C. - INGRIDCS\n");
         printf("Oque voce deseja fazer:\n");
         printf("(1) somar\n");
@@ -45,13 +46,14 @@ int main(){
             }else {
          if(op== '4'){
             resultado = numero1 / numero2;
-             }
+             } else{
+            print("Opção inválida");
            }
          }
        }
       }
             //mostra o resultado na tela
-           printf("\nO resultado eh: %d\n", resultado);
+           printf("\nO resultado é: %d\n", resultado);
 
            printf("\n Pressione uma tecla para realizar uma nova operacao:");
            getch();
